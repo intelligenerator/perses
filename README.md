@@ -1,5 +1,6 @@
 # perses
-Assess damage of houses
+
+Assess damage of buildings.
 
 ## Table of Contents
 
