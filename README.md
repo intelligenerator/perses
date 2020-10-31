@@ -8,6 +8,7 @@ Assess damage of buildings.
     -   [Prerequisites](#prerequisites)
     -   [Initial setup](#initial-setup)
 -   [Usage](#usage)
+    -   [Explainable AI](#explainable-ai)
 -   [Contributing](#contributing)
 -   [Versioning](#versioning)
 -   [Authors](#authors)
@@ -71,6 +72,23 @@ Happy coding!
 Open the [dnet.ipynb](dnet.ipynb) notebook in jupyter lab to start experimenting
 or to train your own model.
 
+### Explainable AI
+
+Perses comes with an [explainable AI notebook](interpret.ipynb). This notebook
+uses [Captum](https://captum.ai/) to interpret the perses model.
+
+To run the notebook and inspect the model behind perses, you must first install
+captum in your conda environment. See the
+[captum docs](https://captum.ai/docs/getting_started) for more information.
+
+```bash
+conda activate torch
+conda install captum -c pytorch
+```
+
+You can now open the [notebook](interpret.ipynb) in jupyter lab to interpret
+perses!
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) and
@@ -99,3 +117,4 @@ This project is licensed under the MIT License - see the
 
 -   [DEVELOPING CUSTOM PYTORCH DATALOADERS](https://pytorch.org/tutorials/recipes/recipes/custom_dataset_transforms_loader.html)
 -   [Contributor Covenant](https://www.contributor-covenant.org/) - Code of Conduct
+-   [Captum](https://captum.ai/) - Model Interpretability for PyTorch
