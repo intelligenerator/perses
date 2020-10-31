@@ -65,13 +65,8 @@ Happy coding!
 
 ## Usage
 
-Assuming, you have cloned this repo into the `dnet_dataset/` subfolder, you can import
-it from your project root:
-
-```python
-from dnet_dataloader import DamageNetDataset
-```
-
+Open the [dnet.ipynb](dnet.ipynb) notebook in jupyter lab to start experimenting
+or to train your own model.
 
 ## Contributing
 
@@ -87,7 +82,6 @@ see the [tags on this repository](https://github.com/intelligenerator/unet_datas
 ## Authors
 
 Boldizsar Zopcsak - [BoldizsarZopcsak](https://github.com/BoldizsarZopcsak)
-
 
 See also the list of
 [contributors](https://github.com/intelligenerator/unet_dataset/contributors)
