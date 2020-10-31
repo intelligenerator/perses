@@ -1,0 +1,3 @@
+[submodule "dnet_dataset"]
+	path = dnet_dataset
+	url = https://github.com/intelligenerator/dnet_dataset.git

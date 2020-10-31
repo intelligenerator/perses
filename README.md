@@ -38,6 +38,9 @@ Clone the git repository
 ```bash
 git clone https://github.com/intelligenerator/perses.git
 cd perses
+git submodule init
+git config submodule.recurse true
+git submodule update --init --recursive
 ```
 
 Then create your conda virtual environment
